@@ -66,3 +66,5 @@ class Test_Deck(unittest.TestCase):
         with self.assertRaises(NoCardsLeftError):
             x.drawCard()
 
+if __name__ == '__main__':
+    unittest.main()
