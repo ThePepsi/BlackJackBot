@@ -1,6 +1,7 @@
 import unittest, random
 
-import Card, Deck, NoCardsLeftError
+import Card, Deck
+from Error import NoCardsLeftError
 
 def createRandomCard() -> Card:
     col = random.choice["kreuz","pik","herz","karo"]
